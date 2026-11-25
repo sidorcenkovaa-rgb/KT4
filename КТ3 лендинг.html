@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бизнес Сайт</title>
+</head>
+<style>
+    body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        color:#333;
+    }
+    header {
+        padding: 20px 10%;
+        border-bottom: 1px solid #eee;
+    }
+    .logo{
+        display:inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        color:#999;
+    }
+    header nav{
+        float: right;
+        margin-top:5px;
+    }
+    .intro {
+        text-align: center;
+        padding: 50px 20%;
+    }
+    .intro h1 {
+        font-size: 36px;
+    }
+    .cards {
+        text-align: center;
+        padding: 0 10% 60px 10%;
+    }
+    .card {
+        display: inline-block;
+        width: 30%;
+        height: 250px;
+        margin: 1%;
+        vertical-align: top;
+        color: white;
+        background-size: cover;
+        background-position: center;
+    }
+    .card h3 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top:30px;
+    }
+    .card-1 { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("консультанции.jpg"); }
+    .card-2 { background-color: #e65c00; }
+    .card-3 { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("стартап.jpg"); }
+    .card-4 { background-color: #82b500; }
+    .card-5 { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("инвестиции.jpg"); }
+    .card-6 { background-color: #2cc5c0; }
+    .card img{
+        width: 70px;
+        margin-top: 25px;
+        filter: invert(1);
+        opacity: 0.7;
+    }
+    footer {
+        background-color: #333333;
+        color:white;
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 14px;
+    }
+    footer a{
+        color: #aaa;
+        margin: 0 10px;
+    }
+</style>
+<body>
+    <header>
+        <div class="logo">logo</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Company</a>
+            <a href="#">Services</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>We'll help manage your business</h1>
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+        </section>
+
+        <section class="cards">
+            <div class="card card-1">
+                <h3>Consultations</h3>
+                <img src="icons8-монеты-50.png" alt="монеты">
+            </div>
+            <div class="card card-2">
+                <h3>Strategy</h3>
+                <img src="icons8-рыцарь-48.png" alt="конь">
+            </div>
+            <div class="card card-3">
+                <h3>Investment</h3>
+                <img src="icons8-инвестиции-50.png" alt="инвестиции">
+            </div>
+            <div class="card card-4">
+                <h3>Marketing</h3>
+                <img src="icons8-громкоговоритель-64.png" alt="громкоговоритель">
+            </div>
+            <div class="card card-5">
+                <h3>Startups</h3>
+                <img src="icons8-ракета-48.png" alt="ракета">
+            </div>
+            <div class="card card-6">
+                <h3>Anti-crisis</h3>
+                <img src="icons8-финансовый-кризис-48.png" alt="финансовый кризис">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sample text. Click to select the text box.</p>
+        <nav>
+            <a href="#">HTML Template</a>
+            <a href="#">Free Website Builder</a>
+        </nav>
+    </footer>
+</body>
+</html>
