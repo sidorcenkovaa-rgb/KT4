@@ -74,6 +74,35 @@
         color: #aaa;
         margin: 0 10px;
     }
+    @media (max-width: 992px) {
+    .cards {
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:20px;
+    }
+    .card {
+        width:100%;
+        margin:0;
+    }
+    .intro h1 {
+        font-size:36px;
+    }
+}
+
+@media (max-width:600px) {
+    .cards {
+        display:grid;
+        grid-template-columns:1fr;
+    }
+    .intro h1 {
+        font-size:28px;
+    }
+    .card {
+        height:250px;
+    }
+}
+
+
 </style>
 <body>
     <header>
